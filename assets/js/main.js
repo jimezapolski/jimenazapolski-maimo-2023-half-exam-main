@@ -119,7 +119,7 @@ function exampleFunction(fecha) {
     return `Code is fun, I love Javascript today: ${fecha}`;
 }*/
 
-const exampleFunction = (fecha) => { return `Code is fun, I love Javascript today: ${fecha}`};
+const exampleFunction = (fecha) => `Code is fun, I love Javascript today: ${fecha}`;
 console.log('Ejercicio _3_b ->', exampleFunction(Date()))
 
 /*
@@ -183,6 +183,7 @@ const final = semiFinal.filter(({pais}) => pais == 'Argentina' || pais == 'Brasi
 
 const finalResultado = final.map(({pais}) => [pais, goles = Math.floor(Math.random() * 101)]);
 // borrador jime: console.log('Ejercicio _4_c ->','le sumo los goles y me fijo como queda arg vs brasil', finalResultado);
+
 
 
 /* borrador jime
